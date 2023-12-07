@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> New Event </ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item>
+      <ion-input label="Event Name" [(ngModel)]="eventName" type="text" placeholder="What's your event's name?"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Price" [(ngModel)]="eventPrice" type="text" placeholder="How much will guests pays?"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Cost" [(ngModel)]="eventCost" type="text" placeholder="How much are you spending?"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Event Date</ion-label>
+        <ion-datetime [(ngModel)]="currentDate" presentation="date" display-format="D, MM, YY" picker-format="DD MM YYYY"
+        min="2017" max="2023-12-31" [value]="currentDate" value="2022-04-21T00:00:00" ></ion-datetime>
+
+      </ion-item>
+      <ion-button (click)="createEvent(eventName, eventPrice, eventCost, currentDate)" expand="block" color="primary">
+        Create Event
+        </ion-button>
+  </ion-list>
+</ion-content>
