@@ -1,9 +1,9 @@
 export var firebaseConfig = {
-  apiKey: "AIzaSyBrJS33-L6U1DfnzlHNl4LTkOZPkAjBlGM",
-  authDomain: "parcialmovil2-c92f8.firebaseapp.com",
-  projectId: "parcialmovil2-c92f8",
-  storageBucket: "parcialmovil2-c92f8.appspot.com",
-  messagingSenderId: "615250223614",
-  appId: "1:615250223614:web:f730d5408b4d473f2960af",
-  measurementId: "G-P7WHTVZPG4"
+  apiKey: "AIzaSyB-G6CmK-1icB3ZDK0Hr3VDOXFYcAm5ByA",
+  authDomain: "guiauno-5e98a.firebaseapp.com",
+  projectId: "guiauno-5e98a",
+  storageBucket: "guiauno-5e98a.appspot.com",
+  messagingSenderId: "113993916007",
+  appId: "1:113993916007:web:eef4dab4e2667af84abec2",
+  measurementId: "G-D6WM4H1QQL"
 };
